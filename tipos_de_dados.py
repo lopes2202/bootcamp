@@ -1,12 +1,6 @@
-print(11 + 10 + 10000)
-print(1.5 + 1 + 0.5)
-print(True)
-print(False)
-print("Python") 
+nome = str(input("Qual seu nome? "))
+idade = int(input("Qual sua idade? "))
 
-int()
-float()
-str()
-bool()
-
-print(str("gabriel") + str(1))
+print(nome, idade, end= "...  \n")
+print(nome, idade, sep="-")
+print(nome, idade, sep="-", end="... \n")
